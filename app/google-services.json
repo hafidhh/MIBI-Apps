@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "315323065303",
+    "firebase_url": "https://simibiub.firebaseio.com",
+    "project_id": "simibiub",
+    "storage_bucket": "simibiub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315323065303:android:9ff4112d9509fce8",
+        "android_client_info": {
+          "package_name": "id.ac.ub.risite.mibi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315323065303-ae7ibpes3qjn5gkjfrfp8buhjvmdagjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.ub.risite.mibi",
+            "certificate_hash": "5eed5cfadb2ef984a056fac8e9c400b0aa5bd10f"
+          }
+        },
+        {
+          "client_id": "315323065303-0lkpqdg0rcvb23egmnovs0386if7ujl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchwAEPkz86L6qHGWvP9Ts8KU269DdaU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315323065303-0lkpqdg0rcvb23egmnovs0386if7ujl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

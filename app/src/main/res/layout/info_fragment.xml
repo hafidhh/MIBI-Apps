@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.InfoFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="343dp"
+                android:layout_height="217dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textMultiLine"
+                android:text="Aplikasi ini merupakan aplikasi pemantau CO2 yg terhubung dengan “SI MIBI RENE”, “SI MIBI RENE” merupakan sebuah alat yang terdiri atas komponen filter CO2 dan komponen kontroller IoT. Dengan aplikasi ini kita dapat memantau kondisi CO2 secara langsung. Pada halaman pertama aplikasi ini terdapat informasi berupa kadar CO2 saat ini dan apakah kadar CO2 masih termasuk kedalam batas aman atau tidak. Pada halaman kedua terdapat informasi berupa kadar CO2 dalam waktu 1 jam dan kadar terendah dan tertinggi dari CO2 tersebut. Pada halaman ketiga terdpat deskripsi aplikasi."
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView3" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tabel"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="222dp" />
+
+            <TextView
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textMultiLine"
+                android:text="Created by Divisi IoT FT-UB"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/scrollView3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="72dp"
+                android:layout_height="48dp"
+                android:src="@drawable/untitled"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="452dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
